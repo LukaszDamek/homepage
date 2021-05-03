@@ -1,0 +1,67 @@
+.navigation {
+  border: crimson 1px solid;
+  text-align: right;
+  background-color: rgb(182, 188, 199);
+  margin: 20px;
+}
+
+.navigation__image {
+  width: 100%;
+  max-width: 350px;
+  padding: 20px;
+  display: block;
+  float: left;
+}
+
+.navigation__listTitle {
+  margin: 20px 20px;
+  font-weight: 700;
+  font-size: large;
+
+}
+
+.navigation__list {
+  margin: 20px 20px;
+  list-style-type: none;
+}
+
+.navigation__listLinkPading {
+  margin: 3px;
+}
+
+.button_theme {
+  background-color: rgb(173, 173, 173);
+}
+
+.button_theme:hover {
+  background-color: black;
+  color: white;
+}
+
+.button_changeColor {
+  background-color: rgb(173, 173, 173);
+}
+
+.button_changeColor:hover {
+  background-color: black;
+  color: white;
+}
+
+.button_removeImg {
+  background-color: rgb(173, 173, 173);
+}
+
+.button_removeImg:hover {
+  background-color: black;
+  color: white;
+}
+
+.link {
+  background-color: burlywood;
+  text-decoration: none;
+
+}
+
+.link:hover {
+  background-color: cornsilk;
+}

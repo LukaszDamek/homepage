@@ -1,0 +1,44 @@
+
+.quotation{
+  font-style: italic;
+}
+.main {
+  line-height: 30px;
+  font-size: 20px;
+  
+}
+
+.main__container {
+  padding: 20px;
+  border: crimson 2px solid;
+  border-radius: 20px;
+  background-color: #c7bcbc;
+  box-shadow: 10px 10px 40px;
+  margin: 50px;
+}
+
+.main__containerImportent {
+  color: #d43e3e;
+}
+
+.main__container {
+  padding: 20px;
+  border: crimson 2px solid;
+  border-radius: 15px;
+  background-color: #c7bcbc;
+  
+  box-shadow: 10px 10px 40px;
+  margin: 50px;
+  
+}
+.main__containerChanges{
+font-weight: 700;
+
+}
+.main__containerDecor{
+  list-style-type: none;
+}
+.horizonLine
+{
+border-top: midnightblue;
+}

@@ -1,0 +1,30 @@
+.table {
+  background-color: darkgray;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tableRow:hover{
+  background-color: rgb(121, 192, 192);
+  color: cornsilk;
+}
+
+.tableCaption{
+  background-color: rgb(168, 156, 156);
+}
+
+.table__cell {
+  border: 2px solid;
+  border-color: red;
+  padding: 20px;
+  text-align: center;
+}
+
+.table__cellHeader {
+  background-color: rgb(121, 192, 192);
+  color: cornsilk;
+}
+
+.tableResponsive {
+  overflow-x: auto;
+}
