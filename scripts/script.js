@@ -1,24 +1,46 @@
-console.log("cześć witam wszystkich sprawdzających mój kod ;-)");
+{
+  const welcome = () => {
+    console.log("cześć witam wszystkich sprawdzających mój kod ;-)");
 
-let buttonTheme = document.querySelector(".js-button_theme");
-let body = document.querySelector(".body");
-let changeTheme = document.querySelector(".changeTheme");
-buttonTheme.addEventListener("click", () => {
-  body.classList.toggle("dark");
-  changeTheme.innerText = body.classList.contains("dark")
-    ? "Włącz normalny kontrast / kolor i czarny tekst"
-    : "Włącz wysoki kontrast / czarna tapeta i biały tekst";
-});
+  }
 
-let buttonChange = document.querySelector(".js-button_changeColor");
-let changeColor = document.querySelector(".js-changeColor");
-buttonChange.addEventListener("click", () => {
-  changeColor.classList.toggle("changeColor");
-});
+  const toggleBackground = () => {
+    const body = document.querySelector(".body");
+    const changeTheme = document.querySelector(".changeTheme");
+    body.classList.toggle("dark");
+    changeTheme.innerText = body.classList.contains("dark")
+      ? "Włącz normalny kontrast / kolor i czarny tekst"
+      : "Włącz wysoki kontrast / czarna tapeta i biały tekst";
 
-let buttonRemove = document.querySelector(".js-button_removeImg");
-let image = document.querySelector(".js-image");
-buttonRemove.addEventListener("click", () => {
-  image.remove();
-});
+  }
 
+  const changeColor = () => {
+    const changeColor = document.querySelector(".js-changeColor");
+    changeColor.classList.toggle("changeColor");
+
+  }
+  const removeImg = () => {
+
+    const image = document.querySelector(".js-image");
+    image.remove();
+  }
+
+  const init = () => {
+    const buttonTheme = document.querySelector(".js-button_theme");
+    buttonTheme.addEventListener("click", (toggleBackground));
+
+    const buttonChange = document.querySelector(".js-button_changeColor");
+    buttonChange.addEventListener("click", (changeColor));
+
+    const buttonRemove = document.querySelector(".js-button_removeImg");
+    buttonRemove.addEventListener("click", (removeImg));
+
+
+  }
+  welcome();
+  init();
+
+
+
+
+}
